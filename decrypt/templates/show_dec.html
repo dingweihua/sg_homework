@@ -1,0 +1,13 @@
+<html>
+  <head>
+  <title>Homework</title>
+  </head>
+  
+  <body>
+    {% if dec_code_flag %}
+    <h2>你的code已经在{{dec_code_time}}被输入了</h2>
+	{% else %}
+    <h2>The decrypted code is: {{dec_code}}</h2>
+    {% endif %}
+  </body>
+</html>
