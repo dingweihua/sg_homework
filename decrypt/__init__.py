@@ -1,5 +1,5 @@
 from flask import Flask
-from flask.ext.sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 
 # generate an instance of Class Flask
 app = Flask(__name__)
